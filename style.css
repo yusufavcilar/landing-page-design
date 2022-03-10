@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:root {
+  --font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.navbar {
+  background-color: aqua;
+}
+
+.navbar__menu {
+  font-family: var(--font-family);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 30px;
+}
+/*# sourceMappingURL=style.css.map */
